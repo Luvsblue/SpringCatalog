@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Welcome to Product Catalog</h1>
+<form id="addProductForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="price">Price:</label>
+    <input type="text" id="price" name="price"><br>
+    <label for="category">Category:</label>
+    <input type="text" id="category" name="category"><br>
+    <input type="submit" value="Add Product">
+</form>
+<button onclick="displayProducts()">Display Products</button>
+<div id="productTable"></div>
+<script src="script.js"></script>
+</body>
+</html>
